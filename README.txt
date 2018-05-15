@@ -1,6 +1,3 @@
-README for Bachelorthesis of Yannic Duckwitz 740596
-
-
 ======= DIRECTORY STRUCTURE ======
  - Find all Frontend Code in folder Frontend.
  - Find all Services in Backend folder
