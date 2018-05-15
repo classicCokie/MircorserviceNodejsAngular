@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b75545de-e119-4243-b68b-5d5a96b15460" name="Gateway (project level)" url="http://192.168.178.74">
+        <fileTransfer host="192.168.178.74" port="22" rootFolder="/home/pi/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="504078fe-aa34-41cc-9d8b-7124785fd9a0" name="Textengine" url="http://192.168.178.76">
+        <fileTransfer host="192.168.178.76" port="22" rootFolder="/home/pi/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1d2ca797-5cb3-4267-a4e5-5ba4bc5e634e" name="Billengine" url="http://192.168.178.75">
+        <fileTransfer host="192.168.178.75" port="22" rootFolder="/home/pi/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="54e97a7f-1ba4-4ceb-b46b-12675182656e" name="Textservice2" url="http://192.168.178.28">
+        <fileTransfer host="192.168.178.28" port="22" rootFolder="/home/pi/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

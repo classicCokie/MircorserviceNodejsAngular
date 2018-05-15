@@ -1,0 +1,10 @@
+<nav class="sidebar" [ngClass]="{sidebarPushRight: isActive}">
+    <ul class="list-group">
+        <a routerLink="/dashboard" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-dashboard"></i>&nbsp;{{ 'Dashboard' | translate }}
+        </a>
+        <a routerLink="/textengine" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-textengine"></i>&nbsp;{{ 'Textengine' | translate }}
+        </a>
+    </ul>
+</nav>

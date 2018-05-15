@@ -1,0 +1,24 @@
+{
+  "name": "textservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-http-proxy": "^1.1.0",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.3",
+    "mongose": "0.0.2-security",
+    "object-sizeof": "^1.2.0",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.4",
+    "socket.io-stream": "^0.9.1",
+    "ws": "^3.3.3",
+    "ws-events": "^1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+<div class="row">
+    <div class="col-lg-12">
+        <fieldset class="form-group">
+            <label>Requirement title</label>
+            <input [(ngModel)]="title" class="form-control" placeholder="Title">
+        </fieldset>
+
+        <fieldset class="form-group">
+            <label>Enter Text </label>
+            <textarea [(ngModel)]="description" class="form-control" rows="3"></textarea>
+        </fieldset>
+
+        <button (click)="saveText()" class="btn btn-secondary">Save REST</button>
+        <button (click)="ws_saveText()" class="btn btn-secondary">Save WS</button>
+
+    </div>
+
+</div>
+<br>
+<br>
+
+<div class="row">
+    <div class="col-lg-12">
+
+        <div class="card mb-3">
+            <div class="card-header">
+                Textblock List
+            </div>
+            <div class="card-body table-responsive">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr *ngFor="let con of conditions; let i = index">
+                        <td>{{i + 1}}</td>
+                        <td>{{con.title}}</td>
+                        <td>{{con.description}}</td>
+                        <td>
+                            <button  (click)="deleteCondition(con._id)" class="btn btn-secondary">Delete REST</button>
+                            <button  (click)="ws_deleteCondition(con._id)" class="btn btn-secondary">Delete WS</button>
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+            <button (click)="getConditions()" class="btn btn-secondary">Refresh with REST</button>
+            <button (click)="ws_getConditions()" class="btn btn-secondary">Refresh with WS</button>
+            <button (click)="deleteAllConditions()" class="btn btn-secondary">Delete All REST</button>
+    </div>
+
+</div>
+<!-- /.row -->

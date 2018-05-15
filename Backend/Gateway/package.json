@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-http-proxy": "^1.1.0",
+    "http-proxy": "^1.16.2",
+    "nodemon": "^1.12.1",
+    "object-sizeof": "^1.2.0",
+    "path": "^0.12.7",
+    "shortid": "^2.2.8",
+    "socket.io": "^2.0.4",
+    "socket.io-stream": "^0.9.1",
+    "ws": "^3.3.3",
+    "ws-events": "^1.0.0"
+  }
+}
