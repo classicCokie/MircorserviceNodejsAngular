@@ -6,14 +6,12 @@
 ## IMPORTANT FILES 
 
 ### FOR THE GATEWAY
----------------
  Backend -> Gateway -> api-gateway_routes -> here the two files condition_routes.js and condition_websockets.js
     -> they are the REST and WebSocket setup.
  Backend -> Gateway -> api-gateway_routes -> modules -> here EventWebSocket.js and measured_request.js
     -> they are the classes used by the the two files mentioned above.
 
 ### FOR THE SERVICES
----------------
   Backend -> TextService1 -> conditions ->here the two files condition_routes.js and condition_websockets.js
   Backend -> TextService1 -> conditions -> modules -> here EventWebSocket.js and measured_request.js
       -> they are the classes used by the the two files mentioned above.
@@ -44,17 +42,19 @@ Please alter the url to point to your respective database.
 ## STARTING THE FRONTEND
 (assuming you have node.js and npm installed)
 switch into the Frontend directory and type:
+`npm install`
 
-npm install
+
 
 After installing finished type:
-
+`
 npm start
-
+`
 
 ## STARTING THE Backend
 (assuming you have node.js and npm installed)
 The setps are the same for every service.
 Switch into the Service Folder and type
-
+`
 node index.js
+`
